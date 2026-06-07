@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  serverExternalPackages: ['@prisma/client', '@neondatabase/serverless', '@prisma/adapter-neon'],
+  serverExternalPackages: ['@neondatabase/serverless', '@prisma/adapter-neon'],
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'res.cloudinary.com' },

@@ -11,5 +11,8 @@ node_modules/
 dist/
 build/
 
+# Prisma generated client (rebuilt on install/build)
+generated/
+
 README.md
 .next
